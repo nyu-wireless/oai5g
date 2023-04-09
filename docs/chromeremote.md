@@ -2,9 +2,11 @@
 
 Google's [Chrome Remote Desktop](https://remotedesktop.google.com/home) is a simple,
 powerful, and completely free way to access full screens on remote servers.
-You can choose to use remote access for the Nautilus server,
-if you prefer access over a full screen instead of a command line accessible
+You may choose to use Chrome Remote Desktop for the Nautilus server,
+if you prefer access with a full screen instead of a command line accessible
 from an SSH window.
+
+<img src="remotedesktop.png"  width="400">
 
 * You will first need to [get an account and SSH](./login.md) into the nautilus server.
 * On your local machine, go to the [Chrome Remote Desktop access page](https://remotedesktop.google.com/access/).
@@ -24,10 +26,12 @@ remote machine.
 * Return to the [Chrome Remote Desktop access page](https://remotedesktop.google.com/access/)
 and select "Remote access" on the left.  The remote machine with a name
 such as `oai-gNB-02.calit2.optiputer.net` should be available.  Select
-that machine.
-* You will now see a screen similar to the image below.
+that machine.  You will be asked to enter the PIN you entered in the previous step.
+* You will now see a screen similar to the image above.
 * You may wish to adjust the screen resolution.  To change the resolution,
 right click in the main window and select "Applications->Settings->Display".
+
+
 
 
 
