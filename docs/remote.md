@@ -1,4 +1,6 @@
-# Using Chrome Remote Desktop
+## Using VNC Server
+
+## Using Chrome Remote Desktop
 
 Google's [Chrome Remote Desktop](https://remotedesktop.google.com/home) is a simple,
 powerful, and completely free way to access full screens on remote servers.
