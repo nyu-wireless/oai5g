@@ -6,7 +6,7 @@ NYU Wireless has recently installed hardware for a basic 5G base station and cor
 
 ## Basic Instructions 
 *  [Creating an account and logging on the Nautilus network](./docs/login.md)
-*  [Using Chrome Remote Desktop](./docs/chromeremote.md)
+*  [Using a Remote Desktop](./docs/chromeremote.md)
 *  Modifying and compiling the code
 *  Running a simple uplink and downlink throughput test
 *  Recoding and parsing MAC, RLC, and PDCP logs
