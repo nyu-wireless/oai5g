@@ -1,10 +1,10 @@
-* You will first need to [get an account and SSH](./login.md) into the nautilus server.
+* You will first need to [get an account and SSH](./login.md) into the Nautilus server.
 
 ## Using VNC Server
 
 * Install any VNC Client on your local machine (for example, https://remmina.org/, https://www.realvnc.com/en/connect/download/vnc/, or https://www.tightvnc.com/download.php)
+* On your local machine, SSH into the Nautilus machine and open an SSH tunnel `ssh -i YOUR_KEY nautilus@216.165.12.75 -L 5903:127.0.0.1:5903`
 * On the Nautilus machine, start a new VNC server `vncserver :3 -depth 32 -geometry 1920x1080 -httpPort 5903`
-* On your local machine, open an SSH Tunnel to the host server `ssh -i YOUR_KEY nautilus@216.165.12.75 -L 5903:127.0.0.1:5903`
 * On your local machine, open the VNC Client you installed in the first step and connect to `127.0.0.1:5903`. The password is `123456`
 * You should be in! For the best graphical performance (depending on your connection), select “High” as the picture quality option. Or similar, depending on your VNC Client.
 
